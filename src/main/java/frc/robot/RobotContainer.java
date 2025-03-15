@@ -69,13 +69,12 @@ public class RobotContainer {
 		intake = new Intake(new IntakeIOSparkMax()); // INTAKE HAS BOTH WRIST AND ALGAE
 
 		NamedCommands.registerCommand("score", Commands.runOnce(() -> {
-			System.out.println("REGISTERING SCORE COMMAND");
-		}));
-
-		new EventTrigger("score").onTrue(Commands.runOnce(() -> {
-			System.out.println("I have scored");
 			intake.autoSetCoralIntakeVoltage(6); // POSITIVE TO EJECT
 		}));
+
+		// new EventTrigger("score").onTrue(Commands.runOnce(() -> {
+		// 	System.out.println("I have scored");
+		// }));
 
 		NamedCommands.registerCommand("stopScore", Commands.runOnce(() -> {
 			System.out.println("REGISTERING STOPSCORE COMMAND");

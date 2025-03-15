@@ -17,10 +17,10 @@ public class Constants {
     public static final double CLIMBER_SPEED_UP = .5;
 
     public static final double PROCESSOR_HEIGHT = 0;
-    public static final double SOURCE_HEIGHT = 3.7;
+    public static final double SOURCE_HEIGHT = 4.5;
     public static final double L0_HEIGHT = -0.5;
-    public static final double L1_HEIGHT = 3.; // 5.25
-    public static final double L2_HEIGHT = 11.4; // 14.5
+    public static final double L1_HEIGHT = 4.05; // 5.25
+    public static final double L2_HEIGHT = 12.35; // 14.5
     public static final double L3_HEIGHT = 25.1; //18
     
     public static final double L1_HEIGHT_ALGAE = 10.15; // 9.25
